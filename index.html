@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 设置页面的字符编码为UTF-8 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>小队长导航</title>
+    <!-- 页面的关键词，用于搜索引擎优化等，便于搜索引擎识别页面相关主题 -->
+    <meta name="keywords" content="网址导航,导航,网址导航,导航,网址导航,绿色导航,无广告导航,网址大全,网址导航,上网导航,网址" />
+    <!-- 页面的描述信息，同样有助于搜索引擎了解页面大致内容 -->
+    <meta name="description" content="整理了一些常用的在线站点" />
+    <!-- 页面作者信息 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!-- 告知浏览器以IE的最新版本模式渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 设置页面视口，使其宽度自适应设备宽度，初始缩放比例为1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 设置页面的图标（favicon），一般显示在浏览器标签页的左上角 -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <!-- 引入自定义的外部样式表，用于页面整体样式定制 -->
+    <link href="zidingyi.css" rel="stylesheet" type="text/css">
+    <!-- 引入页面统计相关的JavaScript脚本文件 -->
+    <script>
+        // 更新时间显示的脚本
+        function updateTime() {
+            const now = new Date(); // 获取当前时间
+            const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const gregorian = new Intl.DateTimeFormat('zh-CN', options).format(now);
+            document.getElementById("time").innerHTML = `${gregorian}`; // 将格式化后的时间插入到页面中
+        }
+        setInterval(updateTime, 1000); // 每秒调用一次 updateTime 函数更新时间
+    </script>
+</head>
+
+<body>
+    <!-- 页面头部的容器，用于放置相关元素 -->
+    <div class="container header">
+        <!-- 链接到网站首页，点击可返回首页 -->
+        <a href="#">
+            <img src="images/wukong.jpg">
+        </a>
+        <!-- 显示页面标题中的一部分，用于页面内标题展示 -->
+        <span class="top-title">——&nbsp;&nbsp;拉萨小队长导航站</span>
+        <!-- 此处可能用于动态显示时间等信息，目前为空，后续可能通过脚本填充 -->
+        <span id="time"></span>
+    </div>
+
+
+    
+    <!-- 规定 1 ：每个系列最多占据 2 行（杂七杂八榜除外），同类型的软件不能超过 2 个，容易浪费展位-->
+
+
+
+    <div class="container title">
+        <span>封神小工具，几乎无所不能！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+
+            
+            <!-- 搜索工具 -->
+            <div class="col">
+                <a href="https://www.goofish.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.goofish.com/">
+                        <span class="name">咸鱼</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://search.chongbuluo.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://search.chongbuluo.com/">
+                        <span class="name">快搜</span>
+                    </div>
+                </a>
+            </div>
+
+            
+            <!-- AI聊天 -->
+            <div class="col">
+                <a href="https://chat.deepseek.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://cdn.deepseek.com/platform/favicon.png">
+                        <span class="name">DeepSeek</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://chatgpt.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://chatgpt.com/">
+                        <span class="name">ChatGPT</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://grok.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://x.ai/">
+                        <span class="name">Grok</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://aistudio.google.com/prompts/new_chat" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/Google-AI.png">
+                        <span class="name">GStudio</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.doubao.com/chat/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.doubao.com/chat/">
+                        <span class="name">豆包</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+            <!-- AI编程 -->
+            <div class="col">
+                <a href="https://www.cursor.com/cn" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.cursor.com/cn">
+                        <span class="name">Cursor</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://code.visualstudio.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://code.visualstudio.com/">
+                        <span class="name">VSC Copilot</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.trae.ai/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.trae.ai/">
+                        <span class="name">Trae</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://windsurf.com/editor" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://windsurf.com/editor">
+                        <span class="name">Windsurf</span>
+                    </div>
+                </a>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    
+    <div class="container title">
+        <span>AI不行？那只能靠大家咯！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+
+            
+            <!-- 本栏都为经验分享网站 -->
+            <div class="col">
+                <a href="https://www.chongbuluo.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.chongbuluo.com/">
+                        <span class="name">虫部落</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.zhihu.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.zhihu.com/">
+                        <span class="name">知乎</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.xiaohongshu.com/explore" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.xiaohongshu.com/explore">
+                        <span class="name">小红书</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.bilibili.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.bilibili.com/">
+                        <span class="name">Bilibili</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://tieba.baidu.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://tieba.baidu.com/">
+                        <span class="name">百度贴吧</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.douban.com/group/explore" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.douban.com/group/explore">
+                        <span class="name">豆瓣</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://bbs.nga.cn/thread.php?fid=-1459709" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://bbs.nga.cn/">
+                        <span class="name">NGA玩家社区</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.douyin.com/discover" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.douyin.com/discover">
+                        <span class="name">抖音精选</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://mpbeta.csdn.net/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://android-artworks.25pp.com/fs08/2024/05/21/2/110_b93bf6ff1ecf693965757da0bb89be5d_con.png">
+                        <span class="name">CSDN</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://weixin.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://search.weixin.qq.com/">
+                        <span class="name">公众号</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.youtube.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.youtube.com/">
+                        <span class="name">Youtube</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://github.com" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://github.com/">
+                        <span class="name">GitHub</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+
+    
+    <div class="container title">
+        <span>学术创作榜，工作神器！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+
+            
+            <!-- 笔记与文档知识库工具 -->
+            <div class="col">
+                <a href="https://kcnxlpcdv0th.feishu.cn/wiki/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/feishu.png">
+                        <span class="name">飞书</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.yuque.com/dashboard" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.yuque.com/dashboard">
+                        <span class="name">语雀</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://mubu.com/app" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://mubu.com/home">
+                        <span class="name">幕布</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://drawnix.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://drawnix.com/">
+                        <span class="name">Drawnix</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://app.yinxiang.com/client/web#?anb=true&" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.yinxiangbiji.com/">
+                        <span class="name">Evernote</span>
+                    </div>
+                </a>
+            </div>
+            
+
+            
+            <!-- 写作、创作 -->
+            <div class="col">
+                <a href="https://simpletex.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://simpletex.cn/">
+                        <span class="name">Simpletex</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://dict.cnki.net/index" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://dict.cnki.net/index">
+                        <span class="name">CNK学术翻译</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.deepl.com/en/translator" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.deepl.com/en/translator">
+                        <span class="name">DeepL</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://cn.piliapp.com/symbol/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://cn.piliapp.com/symbol/">
+                        <span class="name">符号大全</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.originlab.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.originlab.com/">
+                        <span class="name">Originlab</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://app.diagrams.net/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://app.diagrams.net/">
+                        <span class="name">Draw</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.yuque.com/u54515332/ykwhzg/vof5uz41ggexw3iq?singleDoc#" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.yuque.com/dashboard">
+                        <span class="name">小补充</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+
+
+
+    <div class="container title">
+        <span>杂七杂八，没事就瞅瞅！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+
+            
+            <div class="col">
+                <a href="https://filehelper.weixin.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://filehelper.weixin.qq.com/">
+                        <span class="name">文件传输助手</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://cloud.huawei.com/home#/home" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://cloud.huawei.com/home#/home">
+                        <span class="name">华为云空间</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://weread.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://weread.qq.com/">
+                        <span class="name">微信读书</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://pan.baidu.com/disk/main#/index?category=all" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://pan.baidu.com/disk/main#/index?category=all">
+                        <span class="name">百度云盘</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://mail.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://mail.qq.com/">
+                        <span class="name">QQ邮箱</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://xvfr.com/60s.html" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://xvfr.com/60s.html">
+                        <span class="name">每天60s</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://rebang.today/home?tab=top" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://rebang.today/following?tab=top">
+                        <span class="name">全网热搜</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://ima.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://ima.qq.com/">
+                        <span class="name">Ima</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.bejson.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.bejson.com/">
+                        <span class="name">Bejson</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://guatizi.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://guatizi.com/">
+                        <span class="name">挂梯子</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.youxiaohou.com/zh-cn/windows.html" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.youxiaohou.com/">
+                        <span class="name">油小猴</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://z-lib.blog/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/z-library.png">
+                        <span class="name">Z-Library</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://lmarena.ai/leaderboard/webdev" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://lmarena.ai/?leaderboard">
+                        <span class="name">AI竞技场</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://tools.liumingye.cn/music/#/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://tools.liumingye.cn/music/#/">
+                        <span class="name">MyFreeMP3</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://xyzrank.com/#/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://xyzrank.com/#/">
+                        <span class="name">播客榜</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://viphk10000.anqingzhiyun.com/?dlid=1834768656653070337&qdid=1905439278370009090&_refluxos=a10" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://viphk10000.anqingzhiyun.com/">
+                        <span class="name">流量卡合集</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.zhiyunwenxian.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.zhiyunwenxian.cn/">
+                        <span class="name">知云文献翻译</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://trexlabel.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://trexlabel.com/">
+                        <span class="name">Trexlabel</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://sms-activate.world/cn" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/icons/logo/logo.svg">
+                        <span class="name">Sms-activate</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://translate.google.com/?hl=zh-cn&sl=auto&tl=en&op=translate" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://translate.google.com/?hl=zh-cn&sl=auto&tl=en&op=translate">
+                        <span class="name">Google翻译</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://colab.research.google.com/#scrollTo=-gE-Ez1qtyIA" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/colab.png">
+                        <span class="name">Colab</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://autodl.com/home" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://autodl.com/home">
+                        <span class="name">Autodl</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://chat.qwen.ai/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://chat.qwen.ai/">
+                        <span class="name">千问</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.wenxiaobai.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.wenxiaobai.com/">
+                        <span class="name">问小白</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://yiyan.baidu.com/X1" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://yiyan.baidu.com/X1">
+                        <span class="name">文心一言</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://kimi.moonshot.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://kimi.moonshot.cn/">
+                        <span class="name">Kimi</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://yuanbao.tencent.com/chat/naQivTmsDa" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://yuanbao.tencent.com/chat/naQivTmsDa">
+                        <span class="name">元宝</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://chatglm.cn/main/alltoolsdetail?lang=zh" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://chatglm.cn/main/alltoolsdetail?lang=zh">
+                        <span class="name">智普清言</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://gemini.google.com/app" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://gemini.google.com/app">
+                        <span class="name">Gemini</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.zotero.org/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.zotero.org/">
+                        <span class="name">zotero</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="www.jianpian.com" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=www.jianpian.com">
+                        <span class="name">荐片</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://pdf-xchange.eu/pdf-xchange-editor/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://pdf-xchange.eu/pdf-xchange-editor/">
+                        <span class="name">PDF-Tool</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://geekuninstaller.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://geekuninstaller.com/">
+                        <span class="name">Geek</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.52pojie.cn/thread-1089497-1-1.html" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://windowtop.info/">
+                        <span class="name">WinTop</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://ditto-cp.sourceforge.io/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://ditto-cp.sourceforge.io/">
+                        <span class="name">Ditto</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://potplayer.daum.net/?lang=zh_CN" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://potplayer.daum.net/?lang=zh_CN">
+                        <span class="name">Potplayer</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://github.com/IgorMundstein/WinMemoryCleaner" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/windows_memory_cleaner.png">
+                        <span class="name">Cleaner</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col">
+                <a href="https://www.423down.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.423down.com/">
+                        <span class="name">423down</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://msdn.sjjzm.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://msdn.sjjzm.com/">
+                        <span class="name">山己几子木</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.tbtool.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.tbtool.cn/">
+                        <span class="name">图吧工具箱</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://immersivetranslate.com/zh-Hans/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://immersivetranslate.com/zh-Hans/">
+                        <span class="name">沉浸式翻译</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.capcut.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.capcut.cn/">
+                        <span class="name">剪映</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://rustdesk.com/zh-cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://rustdesk.com/zh-cn/">
+                        <span class="name">RustDesk</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://api.spapi.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://api.spapi.cn/">
+                        <span class="name">短视频解析</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.ghxi.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.ghxi.com/">
+                        <span class="name">果壳剥壳</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.wenshushu.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.wenshushu.cn/">
+                        <span class="name">文叔叔</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.fnnas.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.fnnas.com/">
+                        <span class="name">飞牛</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://dbzdk.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://dbzdk.com/">
+                        <span class="name">电报值得看</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://landrop.app/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://landrop.app/">
+                        <span class="name">Landrop</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://pot-app.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://pot-app.com/">
+                        <span class="name">Pot</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.resilio.com/sync/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.resilio.com/sync/">
+                        <span class="name">Resilio</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://syncthing.net/downloads/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://syncthing.net/downloads/">
+                        <span class="name">Syncthing</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://pixpin.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://pixpin.cn/">
+                        <span class="name">Pixpin</span>
+                    </div>
+                </a>
+            </div>
+            
+
+            
+        </div>
+    </div>
+
+
+
+    <div class="container title">
+        <span>神级APP，你值得拥有！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+            
+            <div class="col">
+                <a href="https://www.coolapk.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.coolapk.com/">
+                        <span class="name">酷安</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://support.google.com/files/answer/9848742?hl=zh-Hans" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="images/wenjianjike.png">
+                        <span class="name">文件极客</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.huluxia.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.huluxia.com/">
+                        <span class="name">葫芦侠</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="http://www.estrongs.com/?lang=zh-CN" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=http://www.estrongs.com/?lang=zh-CN">
+                        <span class="name">ES文件浏览器</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+        </div>
+    </div>
+            
+
+    
+
+    <div class="container title">
+        <span>小队长优选，个个都是极品！</span>
+    </div>
+    <div class="container main">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+            
+            <div class="col">
+                <a href="https://szsyw.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://szsyw.cn/">
+                        <span class="name">数字素养网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.aiopenminds.com/common" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.aiopenminds.com/common">
+                        <span class="name">AI导航</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.yanweb.top/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.yanweb.top/">
+                        <span class="name">科研废物网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.coderutil.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.coderutil.com/">
+                        <span class="name">程序员导航</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://hao.shejidaren.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://hao.shejidaren.com/">
+                        <span class="name">设计师导航</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://shejidaohang.top/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://shejidaohang.top/">
+                        <span class="name">设计导航网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://36kdh.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://36kdh.com/">
+                        <span class="name">影视导航网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.zhanid.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.zhanid.com/">
+                        <span class="name">站长工具网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.plnav.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.plnav.com/">
+                        <span class="name">麋鹿导航网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.xygalaxy.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.xygalaxy.com/">
+                        <span class="name">星云导航网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://ai-bot.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://ai-bot.cn/">
+                        <span class="name">AI工具网</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.ak47s.cn/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.ak47s.cn/">
+                        <span class="name">Ak47导航网</span>
+                    </div>
+                </a>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+   
+    <!-- 页面底部的容器，用于放置版权、相关链接等信息 -->
+    <div class="footer container mt10">
+        <!-- 显示版权信息，表明版权归属及版权时间范围 -->
+        <p>Copyright &copy; 2025-<span class="get-year">至今</span> 拉萨小队长 版权所有</p>
+    </div>
+</body>
+
+</html>
