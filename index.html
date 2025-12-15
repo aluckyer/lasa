@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <!-- 设置页面的字符编码为UTF-8 -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>小队长导航</title>
-    <!-- 页面的关键词，用于搜索引擎优化等，便于搜索引擎识别页面相关主题 -->
     <meta name="keywords" content="网址导航,导航,网址导航,导航,网址导航,绿色导航,无广告导航,网址大全,网址导航,上网导航,网址" />
-    <!-- 页面的描述信息，同样有助于搜索引擎了解页面大致内容 -->
     <meta name="description" content="整理了一些常用的在线站点" />
-    <!-- 页面作者信息 -->
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <!-- 告知浏览器以IE的最新版本模式渲染页面 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- 设置页面视口，使其宽度自适应设备宽度，初始缩放比例为1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 设置页面的图标（favicon），一般显示在浏览器标签页的左上角 -->
 
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <!-- 引入自定义的外部样式表，用于页面整体样式定制 -->
     <link href="zidingyi.css" rel="stylesheet" type="text/css">
-    <!-- 引入页面统计相关的JavaScript脚本文件 -->
     <script>
-        // 更新时间显示的脚本
         function updateTime() {
             const now = new Date(); // 获取当前时间
             const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
@@ -33,24 +24,15 @@
 </head>
 
 <body>
-    <!-- 页面头部的容器，用于放置相关元素 -->
     <div class="container header">
-        <!-- 链接到网站首页，点击可返回首页 -->
         <a href="#">
             <img src="images/wukong.jpg">
         </a>
-        <!-- 显示页面标题中的一部分，用于页面内标题展示 -->
         <span class="top-title">——&nbsp;&nbsp;拉萨小队长导航站</span>
-        <!-- 此处可能用于动态显示时间等信息，目前为空，后续可能通过脚本填充 -->
         <span id="time"></span>
     </div>
 
-
-    
-    <!-- 规定 1 ：每个系列最多占据 2 行（杂七杂八榜除外），同类型的软件不能超过 2 个，容易浪费展位-->
-
-
-    
+    <!-- 每一个大类：要确保能覆盖、和满足我的 99% 的使用时长-->
 
     <div class="container title">
         <span>先用思考模型，后用行动模型</span>
@@ -64,14 +46,6 @@
                     <div class="box-img">
                         <img src="https://cdn.deepseek.com/platform/favicon.png">
                         <span class="name">DeepSeek</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://qianwen.com/" class="box-link" target="_blank">
-                    <div class="box-img">
-                        <img src="https://api.xinac.net/icon/?url=https://qianwen.com/">
-                        <span class="name">Qwen</span>
                     </div>
                 </a>
             </div>
@@ -109,22 +83,6 @@
                 </a>
             </div>
             <div class="col">
-                <a href="https://www.doubao.com/chat/" class="box-link" target="_blank">
-                    <div class="box-img">
-                        <img src="https://api.xinac.net/icon/?url=https://www.doubao.com/chat/">
-                        <span class="name">豆包</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://chatglm.cn/main/alltoolsdetail?lang=zh" class="box-link" target="_blank">
-                    <div class="box-img">
-                        <img src="https://api.xinac.net/icon/?url=https://chatglm.cn/main/alltoolsdetail?lang=zh">
-                        <span class="name">智谱</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
                 <a href="https://www.kimi.com/" class="box-link" target="_blank">
                     <div class="box-img">
                         <img src="https://api.xinac.net/icon/?url=https://www.kimi.com/">
@@ -132,9 +90,25 @@
                     </div>
                 </a>
             </div>
+            <div class="col">
+                <a href="https://www.doubao.com/chat/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.doubao.com/chat/">
+                        <span class="name">豆包</span>
+                    </div>
+                </a>
+            </div>
             
         
             <!-- AI编程 -->
+            <div class="col">
+                <a href="https://cursor.com/cn" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://cursor.com/cn">
+                        <span class="name">Cursor</span>
+                    </div>
+                </a>
+            </div>
             <div class="col">
                 <a href="https://www.trae.ai/" class="box-link" target="_blank">
                     <div class="box-img">
@@ -156,7 +130,6 @@
     <div class="container main">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
             
-            <!-- 经验分享 -->
              <div class="col">
                 <a href="https://www.chongbuluo.com/" class="box-link" target="_blank">
                     <div class="box-img">
@@ -214,14 +187,6 @@
                 </a>
             </div>
             <div class="col">
-                <a href="https://www.douyin.com/discover" class="box-link" target="_blank">
-                    <div class="box-img">
-                        <img src="https://api.xinac.net/icon/?url=https://www.douyin.com/discover">
-                        <span class="name">抖音精选</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
                 <a href="https://weixin.qq.com/" class="box-link" target="_blank">
                     <div class="box-img">
                         <img src="https://api.xinac.net/icon/?url=https://search.weixin.qq.com/">
@@ -245,7 +210,6 @@
                     </div>
                 </a>
             </div>
-
             
             <!-- 搜索工具 -->
             <div class="col">
@@ -264,8 +228,6 @@
                     </div>
                 </a>
             </div>
-            
-            
             
         </div>
     </div>
@@ -372,14 +334,14 @@
                     </div>
                 </a>
             </div> -->
-            <!-- <div class="col">
+            <div class="col">
                 <a href="https://z-library-webs.github.io/" class="box-link" target="_blank">
                     <div class="box-img">
                         <img src="images/z-library.png">
                         <span class="name">Z-Library</span>
                     </div>
                 </a>
-            </div> -->
+            </div>
             <div class="col">
                 <a href="https://cn.overleaf.com/project" class="box-link" target="_blank">
                     <div class="box-img">
@@ -388,14 +350,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col">
-                <a href="https://weread.qq.com/" class="box-link" target="_blank">
-                    <div class="box-img">
-                        <img src="https://api.xinac.net/icon/?url=https://weread.qq.com/">
-                        <span class="name">微信读书</span>
-                    </div>
-                </a>
-            </div>
+            
             
             
             
@@ -739,7 +694,7 @@
 
 
     <div class="container title">
-        <span>神级APP，你值得拥有!</span>
+        <span>神级手机APP，你值得拥有!</span>
     </div>
     <div class="container main">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
@@ -817,6 +772,22 @@
                 </a>
             </div>
             
+            <div class="col">
+                <a href="https://www.douyin.com/discover" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://www.douyin.com/discover">
+                        <span class="name">抖音精选</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://weread.qq.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://weread.qq.com/">
+                        <span class="name">微信读书</span>
+                    </div>
+                </a>
+            </div>
             
         </div>
     </div>
@@ -825,12 +796,20 @@
     
 
     <div class="container title">
-        <span>小队长优选，个个都是极品！</span>
+        <span>杂七杂八与备胎计划</span>
     </div>
     <div class="container main">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
 
 
+            <div class="col">
+                <a href="https://qianwen.com/" class="box-link" target="_blank">
+                    <div class="box-img">
+                        <img src="https://api.xinac.net/icon/?url=https://qianwen.com/">
+                        <span class="name">Qwen</span>
+                    </div>
+                </a>
+            </div>
             <div class="col">
                 <a href="https://dnipkggqxh.feishu.cn/wiki/C5XGwG6ITiWxNmkEhNOcCtYbntd?sheet=s1sV61" class="box-link" target="_blank">
                     <div class="box-img">
